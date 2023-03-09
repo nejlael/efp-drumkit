@@ -1,0 +1,28 @@
+#drum-holder{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5em;
+    width: 20em;
+    height: 20em;
+    margin: 0 auto;
+}
+div.pad{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: pink;
+    
+}
+.pad.active{
+    background-color: rgb(149, 71, 84);
+}
+
+span{
+    display: block;
+}
+
+span.label{
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+}
